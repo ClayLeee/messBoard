@@ -1,0 +1,42 @@
+.background-img {
+  background-position: center center;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background: url("../image/photo-1514964420691-1eb9a8232581.jpg");
+  display: block;
+  -moz-filter: blur(5px);
+  -ms-filter: blur(5px);
+  -o-filter: blur(5px);
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  height: 100%;
+  left: -3px;
+  position: fixed;
+  right: 0;
+  top: -3px;
+  width: 100%;
+  z-index: -1;
+}
+.register {
+  background: #add8e6;
+  border-style: outset;
+  margin: 100px auto;
+  padding: 10px;
+  width: 40%;
+}
+.register .register__title {
+  font-size: 40px;
+  text-align: center;
+}
+.register #register__alert {
+  visibility: hidden;
+}
+.register form {
+  margin: 20px;
+}
+.register form input {
+  border-radius: 5px;
+}
