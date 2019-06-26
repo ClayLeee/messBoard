@@ -1,5 +1,5 @@
 # 實現PHP和AJAX的留言板
-=============
+
 這是我第一次實作使用PHP與AJAX的初階留言板，摸索了一段時間才讓所有功能可以正常運作，為了當作學習筆記，所以記下一些寫code時特別需要注意的地方。
 
 ## 前端
@@ -16,8 +16,8 @@
 ```$stmt = $conn->prepare("SELECT username, password FROM users WHERE username = ?");
 $stmt->bind_param("s", $username);
 $username = $_POST['username'];
-$stmt->execute();```
+$stmt->execute();
 
-### 登入系統
+登入系統
 * 使用session驗證user登入。
 * 資料庫內的密碼用password_hash()加密處理再存入資料庫，使用者登入時，使用password_verify()比對密碼與資料庫是否相同。
