@@ -4,7 +4,7 @@
 
 ## 前端
 ------------
-* 前端使用AJAX與後端傳遞資訊，包含留言、編輯、刪除部分。並且除了後端，前端也用htmlspecialchars()防禦XSS攻擊，讓渲染效果能達成一致。
+* 前端使用AJAX與後端傳遞資訊，包含留言、編輯、刪除部分，讓渲染效果能達成一致。並且除了後端，前端也用htmlspecialchars()防禦XSS攻擊。
 * css框架使用bootstrap，加上[Bootswatch](https://bootswatch.com)的Sketchy主題。
 * 使用JQuery取代原本在練習的Vanilla JS。
 
