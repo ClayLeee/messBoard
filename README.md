@@ -19,5 +19,5 @@ $username = $_POST['username'];
 $stmt->execute();
 
 登入系統
-* 使用session驗證user登入。
-* 資料庫內的密碼用password_hash()加密處理再存入資料庫，使用者登入時，使用password_verify()比對密碼與資料庫是否相同。
+1.使用session驗證user登入。
+2.資料庫內的密碼用password_hash()加密處理再存入資料庫，使用者登入時，使用password_verify()比對密碼與資料庫是否相同。
